@@ -11,6 +11,8 @@
 		B3E45A812974D95400AB83E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E45A802974D95400AB83E7 /* ContentView.swift */; };
 		B3E45A832974D95500AB83E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3E45A822974D95500AB83E7 /* Assets.xcassets */; };
 		B3E45A862974D95500AB83E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3E45A852974D95500AB83E7 /* Preview Assets.xcassets */; };
+		B3E45A8F2974E7F000AB83E7 /* TwitterAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E45A8D2974DE2B00AB83E7 /* TwitterAnalyzer.swift */; };
+		B3E45A92297514F900AB83E7 /* TwitterFeeling.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B3E45A91297514F900AB83E7 /* TwitterFeeling.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B3E45A802974D95400AB83E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3E45A822974D95500AB83E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3E45A852974D95500AB83E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3E45A8D2974DE2B00AB83E7 /* TwitterAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAnalyzer.swift; sourceTree = "<group>"; };
+		B3E45A91297514F900AB83E7 /* TwitterFeeling.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TwitterFeeling.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		B3E45A7D2974D95400AB83E7 /* TwitterFeelingsSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				B3E45A91297514F900AB83E7 /* TwitterFeeling.mlmodel */,
+				B3E45A8C2974DCC200AB83E7 /* Models */,
 				B3E45A7E2974D95400AB83E7 /* TwitterFeelingsSwiftUIApp.swift */,
 				B3E45A802974D95400AB83E7 /* ContentView.swift */,
 				B3E45A822974D95500AB83E7 /* Assets.xcassets */,
@@ -65,6 +71,14 @@
 				B3E45A852974D95500AB83E7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B3E45A8C2974DCC200AB83E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B3E45A8D2974DE2B00AB83E7 /* TwitterAnalyzer.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +153,8 @@
 			files = (
 				B3E45A812974D95400AB83E7 /* ContentView.swift in Sources */,
 				B3E45A7F2974D95400AB83E7 /* TwitterFeelingsSwiftUIApp.swift in Sources */,
+				B3E45A8F2974E7F000AB83E7 /* TwitterAnalyzer.swift in Sources */,
+				B3E45A92297514F900AB83E7 /* TwitterFeeling.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
